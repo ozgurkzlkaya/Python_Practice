@@ -1,0 +1,35 @@
+friends = {'ahmet', 'ebru', 'deniz', 'mahmut'}
+
+for friend in friends:
+    print(friend)
+
+
+my_string = 'arinyazılım'
+
+for harf in my_string:
+    print(harf)
+    
+
+for x in range (10):
+    print(x) 
+
+
+for x in range(3, 15, 2):      #3. değişken artış miktarını belirler
+    print(x)
+
+
+friendss = {'mahmut': 36, 'ebru': 28, 'ayşe': 42, 'ahmet':32}
+
+for friendss in friendss:
+    print (friendss)
+
+for key,value in friendss.items:
+    if key == 'ahmet':
+        break                   #İŞLEMİ DURDURUR, CONTİNUE DE İSE ELEMANI PAS GEÇER
+    print(key, value)
+
+
+friendsss = {'ahmet', 'mehmet', 'ali', 'hakan', 'can'}
+
+for i, fr in enumerate(friendsss):
+    print(i, friendsss)           #indis ve elemanı aldık
